@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "HotelRitz.Tests/1.0.0": {
         "dependencies": {
-          "HotelRitz": "1.0.0",
+          "HotelRitz.Blazor": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -33,14 +33,6 @@
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "10.0.11.0",
-            "fileVersion": "10.0.1126.37416"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Identity.UI/10.0.11": {
-        "runtime": {
-          "lib/net10.0/Microsoft.AspNetCore.Identity.UI.dll": {
             "assemblyVersion": "10.0.11.0",
             "fileVersion": "10.0.1126.37416"
           }
@@ -577,15 +569,14 @@
           }
         }
       },
-      "HotelRitz/1.0.0": {
+      "HotelRitz.Blazor/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "10.0.11",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.11",
-          "Microsoft.AspNetCore.Identity.UI": "10.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.11"
         },
         "runtime": {
-          "HotelRitz.dll": {
+          "HotelRitz.Blazor.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -612,13 +603,6 @@
       "sha512": "sha512-N3+Fs465t08FyrQ+uoQyYH6TehLjtuGr/v5IjlFZANBbsivq9M5xFCVD25Ktq+HpWCfWXIrRjoakgymzO2trlw==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.11",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.10.0.11.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Identity.UI/10.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WuuUxX3OixfBtb8wpYmkBNLPs+kB57xPQ1bNWwIf/5OQi7fanvJyqoZP7X4NOlkwvbQ4cX6U4p3EW1eLhylyww==",
-      "path": "microsoft.aspnetcore.identity.ui/10.0.11",
-      "hashPath": "microsoft.aspnetcore.identity.ui.10.0.11.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.14.1": {
       "type": "package",
@@ -774,7 +758,7 @@
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
     },
-    "HotelRitz/1.0.0": {
+    "HotelRitz.Blazor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

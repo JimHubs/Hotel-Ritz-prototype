@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gw8KHQkvL7g=",
+  "dgSpecHash": "OGGc1MCPxKo=",
   "success": true,
   "projectFilePath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/HotelRitz.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,6 @@
     "/Users/jimu/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/10.0.11/microsoft.aspnetcore.cryptography.keyderivation.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/10.0.11/microsoft.aspnetcore.diagnostics.entityframeworkcore.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/10.0.11/microsoft.aspnetcore.identity.entityframeworkcore.10.0.11.nupkg.sha512",
-    "/Users/jimu/.nuget/packages/microsoft.aspnetcore.identity.ui/10.0.11/microsoft.aspnetcore.identity.ui.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.data.sqlite.core/10.0.11/microsoft.data.sqlite.core.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.entityframeworkcore/10.0.11/microsoft.entityframeworkcore.10.0.11.nupkg.sha512",
@@ -29,8 +28,6 @@
     "/Users/jimu/.nuget/packages/microsoft.extensions.dependencymodel/10.0.11/microsoft.extensions.dependencymodel.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.extensions.diagnostics/10.0.11/microsoft.extensions.diagnostics.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.11/microsoft.extensions.diagnostics.abstractions.10.0.11.nupkg.sha512",
-    "/Users/jimu/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.11/microsoft.extensions.fileproviders.abstractions.10.0.11.nupkg.sha512",
-    "/Users/jimu/.nuget/packages/microsoft.extensions.fileproviders.embedded/10.0.11/microsoft.extensions.fileproviders.embedded.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.extensions.identity.core/10.0.11/microsoft.extensions.identity.core.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.extensions.identity.stores/10.0.11/microsoft.extensions.identity.stores.10.0.11.nupkg.sha512",
     "/Users/jimu/.nuget/packages/microsoft.extensions.logging/10.0.11/microsoft.extensions.logging.10.0.11.nupkg.sha512",

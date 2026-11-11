@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelRitz.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c004c21181ffa6e0560be0baddeb584e6e689265")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7060c86e565efcf3e7a67fe304e1f00e47850114")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelRitz.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelRitz.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

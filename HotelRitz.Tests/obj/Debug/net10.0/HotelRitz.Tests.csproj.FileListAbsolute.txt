@@ -1,14 +1,8 @@
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_HotelRitz.Tests
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_HotelRitz.Tests
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/xunit.abstractions.dll
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.deps.json
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.runtimeconfig.json
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/appsettings.Development.json
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/appsettings.json
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.staticwebassets.runtime.json
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.staticwebassets.endpoints.json
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/app.db
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/xunit.runner.visualstudio.testadapter.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.deps.json
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.runtimeconfig.json
@@ -16,7 +10,6 @@
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.pdb
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.UI.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
@@ -126,8 +119,6 @@
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.dll
-/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.pdb
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.AssemblyReference.cache
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfoInputs.cache
@@ -140,3 +131,11 @@
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.pdb
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.genruntimeconfig.cache
 /Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/Debug/net10.0/ref/HotelRitz.Tests.dll
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.deps.json
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.runtimeconfig.json
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.runtime.json
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.endpoints.json
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/Data/app.db
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.dll
+/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.pdb
