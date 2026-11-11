@@ -15,7 +15,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.11": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.14": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -870,10 +870,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.11": {
-      "sha512": "tYYYBZsuF2DSz1I3hcfB8qC4nNekIKufkYZOJ2R28fNK3PkS7fJao/mIX5H84NH94UACZQ4dhvt8GDlkrJFwLg==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.14": {
+      "sha512": "T1IOYbID1msKjQEh684HebnN+Xnq/pocMXDukOMZtzzPTf9c4/30+/JndM/1txrqwuSYqWvLiAQWzu4U93cshw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.11",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -889,7 +889,7 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.14.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
@@ -2526,7 +2526,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.11",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.14",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 10.0.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 10.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
@@ -2535,19 +2535,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/jimu/.nuget/packages/": {}
+    "C:\\Users\\Amich\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\Amich\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj",
       "projectName": "HotelRitz.Blazor",
-      "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj",
-      "packagesPath": "/Users/jimu/.nuget/packages/",
-      "outputPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/obj/",
+      "projectPath": "C:\\Users\\Amich\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj",
+      "packagesPath": "C:\\Users\\Amich\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amich\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jimu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Amich\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2582,7 +2582,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.11, )",
+            "version": "[10.0.14, )",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
@@ -2626,7 +2626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
