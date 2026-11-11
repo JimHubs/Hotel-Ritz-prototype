@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelRitz.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+794f18dd5c6232a3086aae2d2eb630649ac227b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c004c21181ffa6e0560be0baddeb584e6e689265")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelRitz.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelRitz.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

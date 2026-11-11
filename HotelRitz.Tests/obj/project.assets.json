@@ -1135,6 +1135,25 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "HotelRitz.Blazor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "10.0.11",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.11",
+          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.11",
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.11"
+        },
+        "compile": {
+          "bin/placeholder/HotelRitz.Blazor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelRitz.Blazor.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2665,11 +2684,17 @@
       "type": "project",
       "path": "../HotelRitz/HotelRitz.csproj",
       "msbuildProject": "../HotelRitz/HotelRitz.csproj"
+    },
+    "HotelRitz.Blazor/1.0.0": {
+      "type": "project",
+      "path": "../HotelRitz.Blazor/HotelRitz.Blazor.csproj",
+      "msbuildProject": "../HotelRitz.Blazor/HotelRitz.Blazor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "HotelRitz >= 1.0.0",
+      "HotelRitz.Blazor >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -2702,6 +2727,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj": {
+              "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj"
+            },
             "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz/HotelRitz.csproj": {
               "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz/HotelRitz.csproj"
             }

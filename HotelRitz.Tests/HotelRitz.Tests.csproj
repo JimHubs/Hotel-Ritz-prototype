@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HotelRitz\HotelRitz.csproj" />
+    <ProjectReference Include="..\HotelRitz.Blazor\HotelRitz.Blazor.csproj" />
   </ItemGroup>
 
 </Project>
