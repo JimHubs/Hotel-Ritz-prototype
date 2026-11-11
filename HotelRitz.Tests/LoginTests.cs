@@ -1,10 +1,17 @@
-namespace DefaultNamespace;
+using HotelRitz.Blazor.Data;
+
+namespace HotelRitz.Tests;
+
 
 public class LoginTests
 {
-    /* arrange*/
-    
-    /*Act*/
-    
-    /*Assert*/
+    [Fact]
+    public void Login_ShouldWork()
+    {
+        // Arrange
+
+        // Act
+
+        // Assert
+    }
 }
