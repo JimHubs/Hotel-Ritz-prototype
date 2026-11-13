@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using HotelRitz.Blazor.Components;
 using HotelRitz.Blazor.Components.Account;
 using HotelRitz.Blazor.Data;
+using HotelRitz.Blazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

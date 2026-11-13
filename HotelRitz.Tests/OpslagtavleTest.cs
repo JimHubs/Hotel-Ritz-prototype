@@ -1,5 +1,6 @@
 ﻿using HotelRitz.Blazor.Data;
 using HotelRitz.Blazor.Data.Model;
+using HotelRitz.Blazor.Services;
 using Xunit;
 namespace HotelRitz.Tests;
 
@@ -64,5 +65,12 @@ public class OpslagstavleTest
         //assert
         
         Assert.Equal(fastlaastDato, _opslagsTavle.Oprettelsesdato);
+    }
+
+    [Fact]
+
+    public void Opslag_hentOpslagFraService()
+    {
+        
     }
 }
