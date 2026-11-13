@@ -397,8 +397,6 @@ C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\frs1adpxwv-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\fxmqgxie28-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\2vc4bnjfop-{0}-wfr2hj6447-wfr2hj6447.gz
-C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\3gd47sjql9-{0}-zyrwo2zbit-zyrwo2zbit.gz
-C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\kowp8fko98-{0}-zyrwo2zbit-zyrwo2zbit.gz
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\staticwebassets.development.json
@@ -410,3 +408,5 @@ C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\HotelRitz.Blazor.pdb
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\HotelRitz.Blazor.genruntimeconfig.cache
 C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\ref\HotelRitz.Blazor.dll
+C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\3gd47sjql9-{0}-dy74nzq8n5-dy74nzq8n5.gz
+C:\Users\mikke\RiderProjects\Hotel-Ritz-prototype\HotelRitz.Blazor\obj\Debug\net10.0\compressed\kowp8fko98-{0}-dy74nzq8n5-dy74nzq8n5.gz
