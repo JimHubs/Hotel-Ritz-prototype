@@ -1,0 +1,10 @@
+# Normalize line endings (big source of noisy diffs/conflicts across Windows/Mac)
+* text=auto
+
+# Visual Studio solution files: merge both sides' lines instead of conflicting
+*.sln merge=union
+
+# Binary files: never try to diff or merge as text
+*.dll binary
+*.png binary
+*.jpg binary
