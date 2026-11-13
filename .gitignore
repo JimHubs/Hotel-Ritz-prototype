@@ -131,3 +131,13 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+# =========================
+# Database files
+# =========================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
