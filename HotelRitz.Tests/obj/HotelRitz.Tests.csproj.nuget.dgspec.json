@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/HotelRitz.Tests.csproj": {}
+    "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Tests\\HotelRitz.Tests.csproj": {}
   },
   "projects": {
-    "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj",
         "projectName": "HotelRitz.Blazor",
-        "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj",
-        "packagesPath": "/Users/jimu/.nuget/packages/",
-        "outputPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/obj/",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jimu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\mikke\\.dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -511,17 +511,17 @@
         }
       }
     },
-    "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/HotelRitz.Tests.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Tests\\HotelRitz.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/HotelRitz.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Tests\\HotelRitz.Tests.csproj",
         "projectName": "HotelRitz.Tests",
-        "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/HotelRitz.Tests.csproj",
-        "packagesPath": "/Users/jimu/.nuget/packages/",
-        "outputPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Tests/obj/",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Tests\\HotelRitz.Tests.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jimu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -534,8 +534,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj": {
-                "projectPath": "/Users/jimu/RiderProjects/Hotel-Ritz-prototype/HotelRitz.Blazor/HotelRitz.Blazor.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\Hotel-Ritz-prototype\\HotelRitz.Blazor\\HotelRitz.Blazor.csproj"
               }
             }
           }
@@ -564,6 +564,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.21.0, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[2.15.2, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -594,7 +598,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\mikke\\.dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
