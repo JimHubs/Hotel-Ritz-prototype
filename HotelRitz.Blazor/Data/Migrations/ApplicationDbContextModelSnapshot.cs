@@ -15,7 +15,7 @@ namespace HotelRitz.Blazor.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "10.0.0");
+            modelBuilder.HasAnnotation("ProductVersion", "10.0.11");
 
             modelBuilder.Entity("HotelRitz.Blazor.Data.ApplicationUser", b =>
                 {
@@ -40,6 +40,10 @@ namespace HotelRitz.Blazor.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("NormalizedEmail")
@@ -268,47 +272,38 @@ namespace HotelRitz.Blazor.Migrations
 
                     b.OwnsOne("Microsoft.AspNetCore.Identity.IdentityPasskeyData", "Data", b1 =>
                         {
-                            b1.Property<byte[]>("IdentityUserPasskeyCredentialId")
-                                .HasColumnType("BLOB");
+                            b1.Property<byte[]>("IdentityUserPasskeyCredentialId");
 
                             b1.Property<byte[]>("AttestationObject")
-                                .IsRequired()
-                                .HasColumnType("BLOB");
+                                .IsRequired();
 
                             b1.Property<byte[]>("ClientDataJson")
-                                .IsRequired()
-                                .HasColumnType("BLOB");
+                                .IsRequired();
 
-                            b1.Property<DateTimeOffset>("CreatedAt")
-                                .HasColumnType("TEXT");
+                            b1.Property<DateTimeOffset>("CreatedAt");
 
-                            b1.Property<bool>("IsBackedUp")
-                                .HasColumnType("INTEGER");
+                            b1.Property<bool>("IsBackedUp");
 
-                            b1.Property<bool>("IsBackupEligible")
-                                .HasColumnType("INTEGER");
+                            b1.Property<bool>("IsBackupEligible");
 
-                            b1.Property<bool>("IsUserVerified")
-                                .HasColumnType("INTEGER");
+                            b1.Property<bool>("IsUserVerified");
 
-                            b1.Property<string>("Name")
-                                .HasColumnType("TEXT");
+                            b1.Property<string>("Name");
 
                             b1.Property<byte[]>("PublicKey")
-                                .IsRequired()
-                                .HasColumnType("BLOB");
+                                .IsRequired();
 
-                            b1.Property<uint>("SignCount")
-                                .HasColumnType("INTEGER");
+                            b1.Property<uint>("SignCount");
 
-                            b1.PrimitiveCollection<string>("Transports")
-                                .HasColumnType("TEXT");
+                            b1.PrimitiveCollection<string>("Transports");
 
                             b1.HasKey("IdentityUserPasskeyCredentialId");
 
                             b1.ToTable("AspNetUserPasskeys");
 
-                            b1.ToJson("Data");
+                            b1
+                                .ToJson("Data")
+                                .HasColumnType("TEXT");
 
                             b1.WithOwner()
                                 .HasForeignKey("IdentityUserPasskeyCredentialId");

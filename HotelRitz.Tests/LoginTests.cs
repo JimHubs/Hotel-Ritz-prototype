@@ -1,4 +1,3 @@
-
 using Bunit;
 using Moq;
 using Microsoft.AspNetCore.Authentication;

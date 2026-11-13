@@ -1,0 +1,554 @@
+<changelist name="Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1" date="1794560569703" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 13/11/2026, 10.02 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/SQLitePCLRaw.batteries_v2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Diagnostics.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Authorization.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Authorization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.Authorization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Caching.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Mono.TextTemplating.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Mono.TextTemplating.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Mono.TextTemplating.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.Workspaces.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Memory.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Memory.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Caching.Memory.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/libe_sqlite3.dylib" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/libe_sqlite3.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.WebAssembly.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.TestPlatform.Common.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Metadata.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Metadata.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Metadata.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.pdb" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Runtime.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Runtime.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.Composition.Runtime.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Data/app.db" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Data/app.db" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/app.db" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.EntityFrameworkCore.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Configuration.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/SQLitePCLRaw.provider.e_sqlite3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Diagnostics.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.TypedParts.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.TypedParts.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.Composition.TypedParts.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/xunit.abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/testhost.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/testhost.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/testhost.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Validation.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Validation.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Validation.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.pdb" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Build.Framework.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Build.Framework.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Build.Framework.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Newtonsoft.Json.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Newtonsoft.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Newtonsoft.Json.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Physical.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Physical.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.FileProviders.Physical.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Configuration.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Data.Sqlite.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/staticwebassets.build.json.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/e_sqlite3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.execution.dotnet.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.execution.dotnet.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/xunit.execution.dotnet.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Logging.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.EntityFrameworkCore.Design.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.JSInterop.WebAssembly.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.JSInterop.WebAssembly.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.JSInterop.WebAssembly.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CrossPlatEngine.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.Css.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.Css.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/AngleSharp.Css.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.JSInterop.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.JSInterop.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.JSInterop.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Options.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Options.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Options.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.EntityFrameworkCore.Relational.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.CSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/AngleSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.DependencyInjection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.core.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/SQLitePCLRaw.core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/SQLitePCLRaw.core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Localization.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Localization.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Localization.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.PlatformAbstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Forms.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Forms.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.Forms.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.assets.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Configuration.FileExtensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CommunicationUtilities.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.assets.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Castle.Core.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Castle.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Castle.Core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.EntityFrameworkCore.Sqlite.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Convention.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Convention.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.Composition.Convention.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.DependencyModel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/e_sqlite3.a" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Hosting.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.Hosting.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.Composition.Hosting.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.AttributedModel.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.Composition.AttributedModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.Composition.AttributedModel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.core.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/xunit.core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Blazor.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Logging.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Moq.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Moq.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Moq.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.Diffing.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/AngleSharp.Diffing.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/AngleSharp.Diffing.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Json.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Configuration.Json.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CoreUtilities.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CoreUtilities.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.CoreUtilities.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.Utilities.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.Utilities.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.TestPlatform.Utilities.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/HotelRitz.Tests.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Authorization.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Authorization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Authorization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Humanizer.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Humanizer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Humanizer.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.SolutionPersistence.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.assert.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/xunit.assert.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/xunit.assert.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.FileProviders.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/bunit.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/bunit.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/bunit.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Binder.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Binder.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.Configuration.Binder.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.Extensions.FileSystemGlobbing.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.CodeDom.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Blazor/bin/Debug/net10.0/System.CodeDom.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/System.CodeDom.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Web.dll" />
+    <option name="AFTER_PATH" value="HotelRitz.Tests/bin/Debug/net10.0/Microsoft.AspNetCore.Components.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2026,_10_02_[Changes]1/Microsoft.AspNetCore.Components.Web.dll" />
+  </binary>
+</changelist>
