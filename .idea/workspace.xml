@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa172f85-8427-4175-9579-e29ec01c5495" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/HotelRitz.Blazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/4r8or8zij7-{0}-c2jlpeoesf-c2jlpeoesf.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/4r8or8zij7-{0}-c2jlpeoesf-c2jlpeoesf.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/5fv5k9gmoq-{0}-jd9uben2k1-jd9uben2k1.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/5fv5k9gmoq-{0}-jd9uben2k1-jd9uben2k1.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/5tp4e7p6ev-{0}-j5mq2jizvt-j5mq2jizvt.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/5tp4e7p6ev-{0}-j5mq2jizvt-j5mq2jizvt.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/8iqfltx5rm-{0}-v0zj4ognzu-v0zj4ognzu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/8iqfltx5rm-{0}-v0zj4ognzu-v0zj4ognzu.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/8l1j1yqb2k-{0}-ausgxo2sd3-ausgxo2sd3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/8l1j1yqb2k-{0}-ausgxo2sd3-ausgxo2sd3.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/d2e5cpelza-{0}-aexeepp0ev-aexeepp0ev.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/d2e5cpelza-{0}-aexeepp0ev-aexeepp0ev.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/fo08d09jwj-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/fo08d09jwj-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/h2us5ciopm-{0}-0j3bgjxly4-0j3bgjxly4.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/h2us5ciopm-{0}-0j3bgjxly4-0j3bgjxly4.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/hl1bca5e4g-{0}-fsbi9cje9m-fsbi9cje9m.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/hl1bca5e4g-{0}-fsbi9cje9m-fsbi9cje9m.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ho00v3b4ux-{0}-khy4lop6wu-khy4lop6wu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ho00v3b4ux-{0}-khy4lop6wu-khy4lop6wu.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ij7elgvwbe-{0}-cosvhxvwiu-cosvhxvwiu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ij7elgvwbe-{0}-cosvhxvwiu-cosvhxvwiu.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/kjtdym8oao-{0}-iovd86k7lj-iovd86k7lj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/kjtdym8oao-{0}-iovd86k7lj-iovd86k7lj.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/o679at4ez8-{0}-y7v9cxd14o-y7v9cxd14o.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/o679at4ez8-{0}-y7v9cxd14o-y7v9cxd14o.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/orqt4qdvcf-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/orqt4qdvcf-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/p7jaewsiuw-{0}-ft3s53vfgj-ft3s53vfgj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/p7jaewsiuw-{0}-ft3s53vfgj-ft3s53vfgj.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/qpozv55yiv-{0}-hrwsygsryq-hrwsygsryq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/qpozv55yiv-{0}-hrwsygsryq-hrwsygsryq.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/trpuw72nkx-{0}-pj5nd1wqec-pj5nd1wqec.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/trpuw72nkx-{0}-pj5nd1wqec-pj5nd1wqec.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/tsbdjxowek-{0}-c2oey78nd0-c2oey78nd0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/tsbdjxowek-{0}-c2oey78nd0-c2oey78nd0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/u2m7qjxr5g-{0}-nvvlpmu67g-nvvlpmu67g.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/u2m7qjxr5g-{0}-nvvlpmu67g-nvvlpmu67g.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ur27b6qabh-{0}-h1s4sie4z3-h1s4sie4z3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/ur27b6qabh-{0}-h1s4sie4z3-h1s4sie4z3.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/xhpt9swjlj-{0}-kbrnm935zg-kbrnm935zg.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/xhpt9swjlj-{0}-kbrnm935zg-kbrnm935zg.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/xk3ejjwz59-{0}-6pdc2jztkx-6pdc2jztkx.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/xk3ejjwz59-{0}-6pdc2jztkx-6pdc2jztkx.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/yet4tz8n7n-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/compressed/yet4tz8n7n-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/ref/HotelRitz.Blazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/ref/HotelRitz.Blazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/refint/HotelRitz.Blazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/refint/HotelRitz.Blazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/HotelRitz.Blazor.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/HotelRitz.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/HotelRitz.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/LoginTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/LoginTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_HotelRitz.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_HotelRitz.Tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_HotelRitz.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_HotelRitz.Tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Blazor.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/bin/Debug/net10.0/HotelRitz.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/HotelRitz.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/ref/HotelRitz.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/ref/HotelRitz.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/refint/HotelRitz.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/Debug/net10.0/refint/HotelRitz.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/HotelRitz.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Tests/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="507" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/IdentityRedirectManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/Pages/Login.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Tests/LoginTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Tests/RegistrationValidationTests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Lx72cjLpIGPIXdgPPH1qUbDd1g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa172f85-8427-4175-9579-e29ec01c5495" name="Changes" comment="" />
+      <created>1794383662002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794383662002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
