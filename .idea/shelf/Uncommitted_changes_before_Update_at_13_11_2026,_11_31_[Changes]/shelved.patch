@@ -1,0 +1,503 @@
+Index: HotelRitz.Blazor/Components/Pages/Home.razor
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n@page \"/\"\n@attribute [Microsoft.AspNetCore.Authorization.Authorize]\n\n<PageTitle>Hotel Ritz | Dashboard</PageTitle>\n\n<div class=\"dashboard\">\n\n    <aside class=\"sidebar\">\n        <div class=\"brand\">\n            <span class=\"brand-name\">HOTEL RITZ</span>\n            <span class=\"brand-subtitle\">MEDARBEJDERPORTAL</span>\n        </div>\n\n        <nav class=\"sidebar-nav\">\n            <span class=\"nav-heading\">MENU</span>\n\n            <a href=\"/\" class=\"nav-link active\">\n                <span>⌂</span> Dashboard\n            </a>\n\n            <a href=\"/opslagstavle\" class=\"nav-link\">\n                <span>▤</span> Opslagstavle\n            </a>\n\n            <a href=\"/medarbejdere\" class=\"nav-link\">\n                <span>♙</span> Medarbejdere\n            </a>\n\n            <a href=\"/vagtplan\" class=\"nav-link\">\n                <span>▦</span> Vagtplan\n            </a>\n\n            <span class=\"nav-heading account-heading\">KONTO</span>\n\n            <a href=\"/Account/Manage\" class=\"nav-link\">\n                <span>⚙</span> Min profil\n            </a>\n        </nav>\n\n        <div class=\"sidebar-bottom\">\n            <div class=\"sidebar-user\">\n                <div class=\"user-avatar\">HR</div>\n                <div>\n                    <strong>Medarbejder</strong>\n                    <span>Hotel Ritz</span>\n                </div>\n            </div>\n        </div>\n    </aside>\n\n    <main class=\"main-content\">\n\n        <header class=\"topbar\">\n            <div>\n                <span class=\"breadcrumb\">Hotel Ritz / Dashboard</span>\n            </div>\n\n            <a href=\"/Account/Manage\" class=\"profile-link\">\n                Min profil\n            </a>\n        </header>\n\n        <section class=\"welcome-section\">\n            <div>\n                <span class=\"section-label\">MEDARBEJDERPORTAL</span>\n                <h1>Velkommen til Hotel Ritz</h1>\n                <p>\n                    Her finder du de seneste informationer,\n                    nyheder og beskeder fra hotellet.\n                </p>\n            </div>\n\n            <div class=\"welcome-decoration\">\n                HR\n            </div>\n        </section>\n\n        <section class=\"overview-section\">\n            <div class=\"section-heading\">\n                <div>\n                    <h2>Overblik</h2>\n                    <p>Et hurtigt overblik over medarbejderportalen.</p>\n                </div>\n            </div>\n\n            <div class=\"overview-grid\">\n\n                <article class=\"overview-card\">\n                    <div class=\"card-icon\">▤</div>\n                    <span class=\"card-label\">OPSLAGSTAVLE</span>\n                    <h3>Seneste opslag</h3>\n                    <p>Hold dig opdateret med hotellets nyheder.</p>\n                    <a href=\"/opslagstavle\">Se opslag →</a>\n                </article>\n\n                <article class=\"overview-card\">\n                    <div class=\"card-icon\">♙</div>\n                    <span class=\"card-label\">TEAMET</span>\n                    <h3>Medarbejdere</h3>\n                    <p>Få et overblik over hotellets medarbejdere.</p>\n                    <a href=\"/medarbejdere\">Se medarbejdere →</a>\n                </article>\n\n                <article class=\"overview-card\">\n                    <div class=\"card-icon\">▦</div>\n                    <span class=\"card-label\">ARBEJDSTID</span>\n                    <h3>Vagtplan</h3>\n                    <p>Find information om dine vagter og arbejdstider.</p>\n                    <a href=\"/vagtplan\">Se vagtplan →</a>\n                </article>\n\n            </div>\n        </section>\n\n        <section class=\"announcements-section\">\n            <div class=\"section-heading\">\n                <div>\n                    <h2>Seneste opslag</h2>\n                    <p>Information og beskeder fra Hotel Ritz.</p>\n                </div>\n\n                <a href=\"/opslagstavle\" class=\"view-all\">\n                    Se alle opslag →\n                </a>\n            </div>\n\n            <div class=\"announcement-placeholder\">\n                <div class=\"empty-icon\">▤</div>\n                <h3>Ingen opslag endnu</h3>\n                <p>\n                    Når der bliver oprettet opslag på\n                    opslagstavlen, vil de blive vist her.\n                </p>\n            </div>\n        </section>\n\n        <footer class=\"dashboard-footer\">\n            <span>HOTEL RITZ</span>\n            <span>Intern medarbejderportal</span>\n        </footer>\n\n    </main>\n</div>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelRitz.Blazor/Components/Pages/Home.razor b/HotelRitz.Blazor/Components/Pages/Home.razor
+--- a/HotelRitz.Blazor/Components/Pages/Home.razor	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
++++ b/HotelRitz.Blazor/Components/Pages/Home.razor	(date 1794565435573)
+@@ -1,5 +1,6 @@
+ 
+ @page "/"
++@layout HotelRitz.Blazor.Components.Layout.EmptyLayout
+ @attribute [Microsoft.AspNetCore.Authorization.Authorize]
+ 
+ <PageTitle>Hotel Ritz | Dashboard</PageTitle>
+@@ -8,8 +9,13 @@
+ 
+     <aside class="sidebar">
+         <div class="brand">
+-            <span class="brand-name">HOTEL RITZ</span>
+-            <span class="brand-subtitle">MEDARBEJDERPORTAL</span>
++            <img src="images/milling-hotels-logo.png"
++                 alt="Milling Hotels"
++                 class="brand-logo" />
++
++            <span class="brand-subtitle">
++                HOTEL RITZ · MEDARBEJDERPORTAL
++            </span>
+         </div>
+ 
+         <nav class="sidebar-nav">
+@@ -64,7 +70,9 @@
+         <section class="welcome-section">
+             <div>
+                 <span class="section-label">MEDARBEJDERPORTAL</span>
++
+                 <h1>Velkommen til Hotel Ritz</h1>
++
+                 <p>
+                     Her finder du de seneste informationer,
+                     nyheder og beskeder fra hotellet.
+Index: HotelRitz.Blazor/Components/Pages/Weather.razor
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelRitz.Blazor/Components/Pages/Weather.razor b/HotelRitz.Blazor/Components/Pages/Weather.razor
+deleted file mode 100644
+--- a/HotelRitz.Blazor/Components/Pages/Weather.razor	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
++++ /dev/null	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
+@@ -1,64 +0,0 @@
+-@page "/weather"
+-@attribute [StreamRendering]
+-
+-<PageTitle>Weather</PageTitle>
+-
+-<h1>Weather</h1>
+-
+-<p>This component demonstrates showing data.</p>
+-
+-@if (forecasts == null)
+-{
+-    <p><em>Loading...</em></p>
+-}
+-else
+-{
+-    <table class="table">
+-        <thead>
+-            <tr>
+-                <th>Date</th>
+-                <th aria-label="Temperature in Celsius">Temp. (C)</th>
+-                <th aria-label="Temperature in Fahrenheit">Temp. (F)</th>
+-                <th>Summary</th>
+-            </tr>
+-        </thead>
+-        <tbody>
+-            @foreach (var forecast in forecasts)
+-            {
+-                <tr>
+-                    <td>@forecast.Date.ToShortDateString()</td>
+-                    <td>@forecast.TemperatureC</td>
+-                    <td>@forecast.TemperatureF</td>
+-                    <td>@forecast.Summary</td>
+-                </tr>
+-            }
+-        </tbody>
+-    </table>
+-}
+-
+-@code {
+-    private WeatherForecast[]? forecasts;
+-
+-    protected override async Task OnInitializedAsync()
+-    {
+-        // Simulate asynchronous loading to demonstrate streaming rendering
+-        await Task.Delay(500);
+-
+-        var startDate = DateOnly.FromDateTime(DateTime.Now);
+-        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
+-        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+-        {
+-            Date = startDate.AddDays(index),
+-            TemperatureC = Random.Shared.Next(-20, 55),
+-            Summary = summaries[Random.Shared.Next(summaries.Length)]
+-        }).ToArray();
+-    }
+-
+-    private class WeatherForecast
+-    {
+-        public DateOnly Date { get; set; }
+-        public int TemperatureC { get; set; }
+-        public string? Summary { get; set; }
+-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+-    }
+-}
+Index: HotelRitz.Blazor/Components/Pages/Counter.razor
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelRitz.Blazor/Components/Pages/Counter.razor b/HotelRitz.Blazor/Components/Pages/Counter.razor
+deleted file mode 100644
+--- a/HotelRitz.Blazor/Components/Pages/Counter.razor	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
++++ /dev/null	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
+@@ -1,19 +0,0 @@
+-@page "/counter"
+-@rendermode InteractiveServer
+-
+-<PageTitle>Counter</PageTitle>
+-
+-<h1>Counter</h1>
+-
+-<p role="status">Current count: @currentCount</p>
+-
+-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+-
+-@code {
+-    private int currentCount = 0;
+-
+-    private void IncrementCount()
+-    {
+-        currentCount++;
+-    }
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"CMakeProjectFlavorService\">\n    <option name=\"flavorId\" value=\"CMakePlainProjectFlavor\" />\n  </component>\n  <component name=\"CMakeSettings\">\n    <configurations />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fa172f85-8427-4175-9579-e29ec01c5495\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/HotelRitz.Blazor/Data/app.db\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/HotelRitz.Blazor/Data/app.db\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DatabaseLocalColorSettings\">\n    <colors>\n      <entry key=\"4322b979-8ae7-4769-b293-0d11ee631737\" value=\"\" />\n    </colors>\n  </component>\n  <component name=\"EmbeddingIndexingInfo\">\n    <option name=\"cachedIndexableFilesCount\" value=\"507\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/IdentityRedirectManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/Pages/Login.razor\" root0=\"SKIP_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" root2=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/Pages/Register.razor\" root0=\"SKIP_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" root2=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/App.razor\" root0=\"SKIP_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" root2=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/MainLayout.razor\" root0=\"SKIP_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" root2=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor\" root0=\"SKIP_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" root2=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationDbContext.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationUser.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Data/Model/OpslagsTavle.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Program.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Blazor/Properties/AssemblyInfo.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Tests/LoginTests.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Tests/OpslagtavleTest.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/HotelRitz.Tests/RegistrationValidationTests.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"McpProjectServerCommands\">\n    <commands />\n    <urls />\n  </component>\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\n  <component name=\"NextEditCompletionFeaturesState\">\n    <decayedCancelled>\n      <entry key=\"MS100\" value=\"1.0180766908711956\" />\n      <entry key=\"MS500\" value=\"1.5289054016995784\" />\n      <entry key=\"S2\" value=\"2.3524357869645725\" />\n      <entry key=\"S5\" value=\"2.852635061945497\" />\n      <entry key=\"S10\" value=\"3.6222001107416015\" />\n      <entry key=\"S30\" value=\"5.264591567381848\" />\n      <entry key=\"S60\" value=\"6.01814348767164\" />\n      <entry key=\"M2\" value=\"6.476521324712866\" />\n      <entry key=\"M5\" value=\"6.78221744891654\" />\n      <entry key=\"M10\" value=\"6.889658946534773\" />\n      <entry key=\"M15\" value=\"6.926113214325922\" />\n      <entry key=\"M30\" value=\"6.962892576701286\" />\n      <entry key=\"H1\" value=\"6.98140509428258\" />\n      <entry key=\"H2\" value=\"6.990692225224789\" />\n      <entry key=\"H4\" value=\"6.99534352920251\" />\n      <entry key=\"D1\" value=\"6.999223562477798\" />\n      <entry key=\"W1\" value=\"6.999889071557516\" />\n    </decayedCancelled>\n    <decayedSelected>\n      <entry key=\"MS100\" value=\"0.0\" />\n      <entry key=\"MS500\" value=\"0.0\" />\n      <entry key=\"S2\" value=\"0.0\" />\n      <entry key=\"S5\" value=\"0.0\" />\n      <entry key=\"S10\" value=\"0.0\" />\n      <entry key=\"S30\" value=\"0.0\" />\n      <entry key=\"S60\" value=\"0.0\" />\n      <entry key=\"M2\" value=\"0.0\" />\n      <entry key=\"M5\" value=\"0.0\" />\n      <entry key=\"M10\" value=\"0.0\" />\n      <entry key=\"M15\" value=\"0.0\" />\n      <entry key=\"M30\" value=\"0.0\" />\n      <entry key=\"H1\" value=\"0.0\" />\n      <entry key=\"H2\" value=\"0.0\" />\n      <entry key=\"H4\" value=\"0.0\" />\n      <entry key=\"D1\" value=\"0.0\" />\n      <entry key=\"W1\" value=\"0.0\" />\n    </decayedSelected>\n    <decayedShown>\n      <entry key=\"MS100\" value=\"0.9324499407575155\" />\n      <entry key=\"MS500\" value=\"1.4776013275151043\" />\n      <entry key=\"S2\" value=\"2.330313643989443\" />\n      <entry key=\"S5\" value=\"2.840520859754225\" />\n      <entry key=\"S10\" value=\"3.611495520814874\" />\n      <entry key=\"S30\" value=\"5.2572412832774535\" />\n      <entry key=\"S60\" value=\"6.013567877133931\" />\n      <entry key=\"M2\" value=\"6.473956898876233\" />\n      <entry key=\"M5\" value=\"6.781117512840219\" />\n      <entry key=\"M10\" value=\"6.889095913253402\" />\n      <entry key=\"M15\" value=\"6.925734901109372\" />\n      <entry key=\"M30\" value=\"6.962701927455678\" />\n      <entry key=\"H1\" value=\"6.981309393894733\" />\n      <entry key=\"H2\" value=\"6.990644280762116\" />\n      <entry key=\"H4\" value=\"6.995319533362935\" />\n      <entry key=\"D1\" value=\"6.999219559888793\" />\n      <entry key=\"W1\" value=\"6.999888499678654\" />\n    </decayedShown>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6,\n  &quot;fromUser&quot;: false\n}</component>\n  <component name=\"ProjectId\" id=\"3Lx72cjLpIGPIXdgPPH1qUbDd1g\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.MCP Project settings loaded\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"RunOnceActivity.readMode.enableVisualFormatting\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"cidr.known.project.marker\": \"true\",\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"list.type.of.created.stylesheet\": \"CSS\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\"\n  }\n}]]></component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fa172f85-8427-4175-9579-e29ec01c5495\" name=\"Changes\" comment=\"\" />\n      <created>1794383662002</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1794383662002</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"daddy log in\" />\n    <MESSAGE value=\"Fixer gitignore\" />\n    <MESSAGE value=\"init commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"init commit\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.OperationCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.OperationCanceledException\" />\n          <option name=\"timeStamp\" value=\"1\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.Tasks.TaskCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.Tasks.TaskCanceledException\" />\n          <option name=\"timeStamp\" value=\"2\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.ThreadAbortException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.ThreadAbortException\" />\n          <option name=\"timeStamp\" value=\"3\" />\n        </breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
++++ b/.idea/workspace.xml	(date 1794565700425)
+@@ -11,10 +11,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="fa172f85-8427-4175-9579-e29ec01c5495" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Counter.razor" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Data/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Data/app.db" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Weather.razor" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,6 +35,7 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="CSS File" />
++        <option value="HTML File" />
+       </list>
+     </option>
+   </component>
+@@ -44,6 +47,7 @@
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/Pages/Login.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Account/Pages/Register.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/App.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+@@ -131,6 +135,7 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "DefaultHtmlFileTemplate": "HTML File",
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "RunOnceActivity.MCP Project settings loaded": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+@@ -180,6 +185,7 @@
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+     <MESSAGE value="daddy log in" />
+     <MESSAGE value="Fixer gitignore" />
++    <MESSAGE value="init commit fam" />
+     <MESSAGE value="init commit" />
+     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+   </component>
+Index: HotelRitz.Blazor/Components/Layout/EmptyLayout.razor
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor b/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor
+new file mode 100644
+--- /dev/null	(date 1794565131940)
++++ b/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor	(date 1794565131940)
+@@ -0,0 +1,11 @@
++@inherits LayoutComponentBase
++
++<div class="page">
++    @Body
++</div>
++
++<div id="blazor-error-ui" data-nosnippet>
++    An unhandled error has occurred.
++    <a href="." class="reload">Reload</a>
++    <span class="dismiss">🗙</span>
++</div>
+\ No newline at end of file
+Index: HotelRitz.Blazor/Components/Pages/Home.razor.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n.dashboard {\n    --green: #35483d;\n    --green-light: #e8eee8;\n    --cream: #f7f6f1;\n    --text: #343b35;\n    --muted: #858a82;\n\n    display: flex;\n    min-height: 100vh;\n    background: var(--cream);\n    color: var(--text);\n    font-family: Arial, sans-serif;\n}\n\n/* Sidebar */\n\n.sidebar {\n    width: 250px;\n    min-width: 250px;\n    background: var(--green);\n    color: white;\n    display: flex;\n    flex-direction: column;\n    padding: 35px 22px;\n}\n\n.brand {\n    display: flex;\n    flex-direction: column;\n    padding: 0 12px 45px;\n}\n\n.brand-name {\n    font-family: Georgia, serif;\n    font-size: 25px;\n    letter-spacing: 4px;\n}\n\n.brand-subtitle {\n    margin-top: 8px;\n    font-size: 9px;\n    letter-spacing: 2px;\n    color: #c2cec3;\n}\n\n.sidebar-nav {\n    display: flex;\n    flex-direction: column;\n    gap: 8px;\n}\n\n.nav-heading {\n    color: #aab8ab;\n    font-size: 10px;\n    letter-spacing: 2px;\n    margin: 0 12px 12px;\n}\n\n.nav-link {\n    display: flex;\n    align-items: center;\n    gap: 13px;\n    padding: 13px 14px;\n    color: #dce3dc;\n    text-decoration: none;\n    border-radius: 6px;\n    font-size: 14px;\n}\n\n.nav-link span {\n    font-size: 19px;\n}\n\n.nav-link:hover,\n.nav-link.active {\n    background: #506657;\n    color: white;\n}\n\n.account-heading {\n    margin-top: 35px;\n}\n\n.sidebar-bottom {\n    margin-top: auto;\n}\n\n.sidebar-user {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    padding: 20px 5px 0;\n    border-top: 1px solid #607065;\n}\n\n.user-avatar {\n    width: 38px;\n    height: 38px;\n    background: #d9d5c5;\n    color: var(--green);\n    display: grid;\n    place-items: center;\n    border-radius: 50%;\n    font-weight: bold;\n}\n\n.sidebar-user strong,\n.sidebar-user span {\n    display: block;\n    font-size: 12px;\n}\n\n.sidebar-user span {\n    color: #b9c5ba;\n    margin-top: 5px;\n}\n\n/* Main content */\n\n.main-content {\n    flex: 1;\n    min-width: 0;\n    padding: 0 55px;\n}\n\n.topbar {\n    height: 85px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border-bottom: 1px solid #e8e6de;\n}\n\n.breadcrumb {\n    color: var(--muted);\n    font-size: 13px;\n}\n\n.profile-link {\n    color: var(--green);\n    text-decoration: none;\n    font-size: 13px;\n    font-weight: bold;\n}\n\n/* Welcome */\n\n.welcome-section {\n    margin-top: 45px;\n    padding: 40px;\n    background: #e9ece4;\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    overflow: hidden;\n}\n\n.section-label {\n    font-size: 10px;\n    letter-spacing: 2px;\n    color: #758676;\n    font-weight: bold;\n}\n\n.welcome-section h1 {\n    font-family: Georgia, serif;\n    font-size: 36px;\n    font-weight: normal;\n    margin: 15px 0;\n}\n\n.welcome-section p {\n    color: #72796f;\n    font-size: 14px;\n    line-height: 1.7;\n}\n\n.welcome-decoration {\n    font-family: Georgia, serif;\n    font-size: 90px;\n    color: #d2d9cf;\n    padding: 0 25px;\n}\n\n/* Overview */\n\n.overview-section,\n.announcements-section {\n    margin-top: 45px;\n}\n\n.section-heading {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-bottom: 22px;\n}\n\n.section-heading h2 {\n    font-family: Georgia, serif;\n    font-size: 25px;\n    font-weight: normal;\n    margin: 0;\n}\n\n.section-heading p {\n    color: var(--muted);\n    font-size: 13px;\n    margin-top: 8px;\n}\n\n.overview-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n}\n\n.overview-card {\n    background: white;\n    padding: 25px;\n    border: 1px solid #eeece5;\n    border-radius: 8px;\n}\n\n.card-icon {\n    width: 42px;\n    height: 42px;\n    display: grid;\n    place-items: center;\n    background: var(--green-light);\n    color: var(--green);\n    border-radius: 8px;\n    font-size: 22px;\n    margin-bottom: 22px;\n}\n\n.card-label {\n    font-size: 9px;\n    letter-spacing: 1.5px;\n    color: #899488;\n}\n\n.overview-card h3 {\n    font-family: Georgia, serif;\n    font-size: 21px;\n    font-weight: normal;\n    margin: 10px 0;\n}\n\n.overview-card p {\n    font-size: 12px;\n    color: var(--muted);\n    line-height: 1.7;\n    min-height: 40px;\n}\n\n.overview-card a,\n.view-all {\n    display: inline-block;\n    margin-top: 12px;\n    color: #526b55;\n    font-size: 12px;\n    font-weight: bold;\n    text-decoration: none;\n}\n\n.overview-card a:hover,\n.view-all:hover {\n    text-decoration: underline;\n}\n\n/* Announcements */\n\n.announcement-placeholder {\n    background: white;\n    border: 1px solid #eeece5;\n    border-radius: 8px;\n    padding: 45px 20px;\n    text-align: center;\n}\n\n.empty-icon {\n    color: #849482;\n    font-size: 35px;\n}\n\n.announcement-placeholder h3 {\n    font-family: Georgia, serif;\n    font-weight: normal;\n    font-size: 21px;\n    margin: 15px 0 8px;\n}\n\n.announcement-placeholder p {\n    color: var(--muted);\n    font-size: 13px;\n    line-height: 1.7;\n}\n\n.dashboard-footer {\n    display: flex;\n    justify-content: space-between;\n    padding: 35px 0;\n    margin-top: 35px;\n    border-top: 1px solid #e8e6de;\n    color: var(--muted);\n    font-size: 10px;\n    letter-spacing: 1px;\n}\n\n/* Responsive */\n\n@media (max-width: 1000px) {\n    .main-content {\n        padding: 0 25px;\n    }\n\n    .overview-grid {\n        grid-template-columns: 1fr;\n    }\n}\n\n@media (max-width: 650px) {\n    .dashboard {\n        flex-direction: column;\n    }\n\n    .sidebar {\n        width: auto;\n        min-width: 0;\n        padding: 20px;\n    }\n\n    .sidebar-bottom {\n        display: none;\n    }\n\n    .sidebar-nav {\n        flex-direction: row;\n        flex-wrap: wrap;\n    }\n\n    .nav-heading {\n        width: 100%;\n    }\n\n    .account-heading {\n        margin-top: 10px;\n    }\n\n    .main-content {\n        padding: 0 18px;\n    }\n\n    .welcome-section {\n        padding: 25px;\n    }\n\n    .welcome-section h1 {\n        font-size: 28px;\n    }\n\n    .welcome-decoration {\n        display: none;\n    }\n\n    .dashboard-footer {\n        gap: 15px;\n        flex-wrap: wrap;\n    }\n}\n
+===================================================================
+diff --git a/HotelRitz.Blazor/Components/Pages/Home.razor.css b/HotelRitz.Blazor/Components/Pages/Home.razor.css
+--- a/HotelRitz.Blazor/Components/Pages/Home.razor.css	(revision e1d34c51d48e4224b68b9bf9d420707a63d73980)
++++ b/HotelRitz.Blazor/Components/Pages/Home.razor.css	(date 1794565447344)
+@@ -1,10 +1,12 @@
+ 
+ .dashboard {
+-    --green: #35483d;
+-    --green-light: #e8eee8;
+-    --cream: #f7f6f1;
+-    --text: #343b35;
+-    --muted: #858a82;
++    --burgundy: #A0002B;
++    --burgundy-dark: #850022;
++    --red: #D14B4B;
++    --cream: #FAF7F1;
++    --soft-pink: #F2E8E4;
++    --text: #37312F;
++    --muted: #8D817D;
+ 
+     display: flex;
+     min-height: 100vh;
+@@ -18,7 +20,7 @@
+ .sidebar {
+     width: 250px;
+     min-width: 250px;
+-    background: var(--green);
++    background: var(--burgundy);
+     color: white;
+     display: flex;
+     flex-direction: column;
+@@ -28,20 +30,22 @@
+ .brand {
+     display: flex;
+     flex-direction: column;
++    align-items: flex-start;
+     padding: 0 12px 45px;
+ }
+ 
+-.brand-name {
+-    font-family: Georgia, serif;
+-    font-size: 25px;
+-    letter-spacing: 4px;
++.brand-logo {
++    width: 115px;
++    height: auto;
++    border-radius: 8px;
++    margin-bottom: 18px;
+ }
+ 
+ .brand-subtitle {
+-    margin-top: 8px;
+     font-size: 9px;
+-    letter-spacing: 2px;
+-    color: #c2cec3;
++    letter-spacing: 1.5px;
++    color: #F2D9DC;
++    line-height: 1.6;
+ }
+ 
+ .sidebar-nav {
+@@ -51,7 +55,7 @@
+ }
+ 
+ .nav-heading {
+-    color: #aab8ab;
++    color: #E8BFC8;
+     font-size: 10px;
+     letter-spacing: 2px;
+     margin: 0 12px 12px;
+@@ -62,10 +66,11 @@
+     align-items: center;
+     gap: 13px;
+     padding: 13px 14px;
+-    color: #dce3dc;
++    color: #F5E5E8;
+     text-decoration: none;
+     border-radius: 6px;
+     font-size: 14px;
++    transition: background 0.2s ease;
+ }
+ 
+ .nav-link span {
+@@ -74,7 +79,7 @@
+ 
+ .nav-link:hover,
+ .nav-link.active {
+-    background: #506657;
++    background: rgba(255, 255, 255, 0.18);
+     color: white;
+ }
+ 
+@@ -91,14 +96,14 @@
+     align-items: center;
+     gap: 12px;
+     padding: 20px 5px 0;
+-    border-top: 1px solid #607065;
++    border-top: 1px solid rgba(255, 255, 255, 0.25);
+ }
+ 
+ .user-avatar {
+     width: 38px;
+     height: 38px;
+-    background: #d9d5c5;
+-    color: var(--green);
++    background: #F2D9DC;
++    color: var(--burgundy);
+     display: grid;
+     place-items: center;
+     border-radius: 50%;
+@@ -112,7 +117,7 @@
+ }
+ 
+ .sidebar-user span {
+-    color: #b9c5ba;
++    color: #E8BFC8;
+     margin-top: 5px;
+ }
+ 
+@@ -129,7 +134,7 @@
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+-    border-bottom: 1px solid #e8e6de;
++    border-bottom: 1px solid #E8E1DA;
+ }
+ 
+ .breadcrumb {
+@@ -138,18 +143,18 @@
+ }
+ 
+ .profile-link {
+-    color: var(--green);
++    color: var(--burgundy);
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: bold;
+ }
+ 
+-/* Welcome */
++/* Welcome section */
+ 
+ .welcome-section {
+     margin-top: 45px;
+     padding: 40px;
+-    background: #e9ece4;
++    background: var(--soft-pink);
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+@@ -160,7 +165,7 @@
+ .section-label {
+     font-size: 10px;
+     letter-spacing: 2px;
+-    color: #758676;
++    color: var(--burgundy);
+     font-weight: bold;
+ }
+ 
+@@ -169,10 +174,11 @@
+     font-size: 36px;
+     font-weight: normal;
+     margin: 15px 0;
++    color: var(--text);
+ }
+ 
+ .welcome-section p {
+-    color: #72796f;
++    color: #776D69;
+     font-size: 14px;
+     line-height: 1.7;
+ }
+@@ -180,7 +186,7 @@
+ .welcome-decoration {
+     font-family: Georgia, serif;
+     font-size: 90px;
+-    color: #d2d9cf;
++    color: #E4CED0;
+     padding: 0 25px;
+ }
+ 
+@@ -220,8 +226,14 @@
+ .overview-card {
+     background: white;
+     padding: 25px;
+-    border: 1px solid #eeece5;
++    border: 1px solid #EEE6E1;
+     border-radius: 8px;
++    transition: transform 0.2s ease, box-shadow 0.2s ease;
++}
++
++.overview-card:hover {
++    transform: translateY(-3px);
++    box-shadow: 0 8px 20px rgba(70, 30, 35, 0.07);
+ }
+ 
+ .card-icon {
+@@ -229,8 +241,8 @@
+     height: 42px;
+     display: grid;
+     place-items: center;
+-    background: var(--green-light);
+-    color: var(--green);
++    background: #F6E7E8;
++    color: var(--burgundy);
+     border-radius: 8px;
+     font-size: 22px;
+     margin-bottom: 22px;
+@@ -239,7 +251,7 @@
+ .card-label {
+     font-size: 9px;
+     letter-spacing: 1.5px;
+-    color: #899488;
++    color: #A18C88;
+ }
+ 
+ .overview-card h3 {
+@@ -260,7 +272,7 @@
+ .view-all {
+     display: inline-block;
+     margin-top: 12px;
+-    color: #526b55;
++    color: var(--burgundy);
+     font-size: 12px;
+     font-weight: bold;
+     text-decoration: none;
+@@ -275,14 +287,14 @@
+ 
+ .announcement-placeholder {
+     background: white;
+-    border: 1px solid #eeece5;
++    border: 1px solid #EEE6E1;
+     border-radius: 8px;
+     padding: 45px 20px;
+     text-align: center;
+ }
+ 
+ .empty-icon {
+-    color: #849482;
++    color: var(--burgundy);
+     font-size: 35px;
+ }
+ 
+@@ -299,12 +311,14 @@
+     line-height: 1.7;
+ }
+ 
++/* Footer */
++
+ .dashboard-footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 35px 0;
+     margin-top: 35px;
+-    border-top: 1px solid #e8e6de;
++    border-top: 1px solid #E8E1DA;
+     color: var(--muted);
+     font-size: 10px;
+     letter-spacing: 1px;
+@@ -333,6 +347,14 @@
+         padding: 20px;
+     }
+ 
++    .brand {
++        padding-bottom: 20px;
++    }
++
++    .brand-logo {
++        width: 90px;
++    }
++
+     .sidebar-bottom {
+         display: none;
+     }
