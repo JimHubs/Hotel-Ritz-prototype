@@ -71,6 +71,14 @@ public class OpslagstavleTest
 
     public void Opslag_hentOpslagFraService()
     {
+        //arrange
+        var service = new OpslagService();
         
+        //act
+        var resultat = service.HentAlleOpslag();
+        
+        //assert
+        Assert.NotNull(resultat);
+        Assert.Single(resultat); // vi forventer præcis 1 opslag
     }
 }
