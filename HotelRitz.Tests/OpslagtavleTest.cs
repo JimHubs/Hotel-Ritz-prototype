@@ -1,6 +1,7 @@
 ﻿using HotelRitz.Blazor.Data;
 using HotelRitz.Blazor.Data.Model;
 using HotelRitz.Blazor.Services;
+using Microsoft.EntityFrameworkCore;
 using Xunit;
 namespace HotelRitz.Tests;
 
@@ -21,7 +22,7 @@ public class OpslagstavleTest
             Oprettelsesdato = DateTime.Now
         };
     }
-    
+
     [Fact]
     public void Opslag_titel_titelKanÆndres()
     {
@@ -37,7 +38,7 @@ public class OpslagstavleTest
     {
         //act
         _opslagsTavle.Besked = "vigtig besked";
-        
+
         //assert
         Assert.Equal("vigtig besked", _opslagsTavle.Besked);
     }
@@ -46,9 +47,9 @@ public class OpslagstavleTest
     public void Opslag_forfatter_forfatterKanÆndres()
     {
         _opslagsTavle.Forfatter = "forfatter";
-        
+
         //assert
-        
+
         Assert.Equal("forfatter", _opslagsTavle.Forfatter);
     }
 
@@ -56,58 +57,49 @@ public class OpslagstavleTest
     public void Oplag_oprettelse_oprettelseKanÆndres()
     {
         //arrange
-        
+
         var fastlaastDato = new DateTime(2026, 11, 11);
-        
+
         //act
 
         _opslagsTavle.Oprettelsesdato = fastlaastDato;
         //assert
-        
+
         Assert.Equal(fastlaastDato, _opslagsTavle.Oprettelsesdato);
     }
 
+
+   
+
     [Fact]
-
-    public void Opslag_hentOpslagFraService()
+    public void HentAlleOpslag_SkalReturnereEnListeAfOpslag()
     {
-        //arrange
-        var service = new OpslagService();
+        // arrange. bruger de gamle test med her med den service og db
+        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+            .UseSqlite("DataSource=MinTestDatabase.db")
+            .Options;
         
-        //act
-        var resultat = service.HentAlleOpslag();
-        
-        //assert
-        Assert.NotNull(resultat);
-        Assert.Single(resultat); // vi forventer præcis 1 opslag
-    }
+        using var context = new ApplicationDbContext(options);
+        context.Database.EnsureDeleted(); 
+        context.Database.EnsureCreated(); 
     
-    public void Opslag_hentAlleOpslag_returnerEtOpslag()
-    {
-        //arrange
-        var service = new OpslagService();
-        
-        //act
-        var resultat = service.HentAlleOpslag();
-        
-        //assert
-        Assert.NotNull(resultat);
-        Assert.Single(resultat);
-    }
+        // opslag
+        context.OpslagsTavler.Add(new OpslagsTavle 
+        { 
+            Id = 1, 
+            Titel = "Arthur", 
+            Besked = "Hej fra arthur", 
+            Forfatter = "Arthur", 
+            Oprettelsesdato = DateTime.Now 
+        });
+        context.SaveChanges();
 
-    public void HentAlleOpslag_OpslagHarTitelOgBesked()
-    {
-        //arrange
-        var service = new OpslagService();
-        
         //act
+        var service = new OpslagService(context);
         var resultat = service.HentAlleOpslag();
-        
-        //assert
+
+        // assert
         Assert.NotNull(resultat);
-        Assert.Single(resultat);
-        var opslag = resultat.First();
-        Assert.Equal("Arthur", opslag.Titel);
-        Assert.Equal("Hej fra arthur", opslag.Besked);
+        Assert.Single(resultat); 
     }
 }
