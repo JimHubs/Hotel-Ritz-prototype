@@ -79,8 +79,10 @@ public class OpslagstavleTest
         
         //assert
         Assert.NotNull(resultat);
-        Assert.Single(resultat); // vi forventer præcis 1 opslag
+        Assert.Single(resultat); 
     }
+    
+    [Fact]
     
     public void Opslag_hentAlleOpslag_returnerEtOpslag()
     {
@@ -95,6 +97,8 @@ public class OpslagstavleTest
         Assert.Single(resultat);
     }
 
+    
+    [Fact]
     public void HentAlleOpslag_OpslagHarTitelOgBesked()
     {
         //arrange
