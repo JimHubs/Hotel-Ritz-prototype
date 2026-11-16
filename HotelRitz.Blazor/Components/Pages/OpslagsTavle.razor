@@ -1,0 +1,77 @@
+﻿@page "/opslagstavle"
+@rendermode InteractiveServer
+@using HotelRitz.Blazor.Services
+@using HotelRitz.Blazor.Data.Model
+@inject OpslagService Service
+
+<h3>Fælles Opslagstavle</h3>
+
+<!-- Formular til at oprette nyt opslag -->
+<div class="card mb-4 shadow-sm" style="max-width: 600px;">
+    <div class="card-body">
+        <h5 class="card-title">Skriv et nyt opslag</h5>
+        <div class="mb-2">
+            <input class="form-control" placeholder="Titel" @bind="nytOpslag.Titel" />
+        </div>
+        <div class="mb-2">
+            <input class="form-control" placeholder="Dit navn (Forfatter)" @bind="nytOpslag.Forfatter" />
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" placeholder="Skriv din besked her..." @bind="nytOpslag.Besked"></textarea>
+        </div>
+        <button class="btn btn-primary" @onclick="Opret">Gem opslag</button>
+    </div>
+</div>
+
+<!-- Visning af eksisterende opslag -->
+@if (opslagListe == null || !opslagListe.Any())
+{
+    <p>Der er ingen opslag på tavlen lige nu.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var opslag in opslagListe)
+        {
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@opslag.Titel</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Af @opslag.Forfatter - @opslag.Oprettelsesdato.ToShortDateString()</h6>
+                        <hr />
+                        <p class="card-text">@opslag.Besked</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    // Vi bruger den fulde sti for at undgå navnesammenfald med selve Razor-siden
+    private List<HotelRitz.Blazor.Data.Model.OpslagsTavle> opslagListe = new();
+    private HotelRitz.Blazor.Data.Model.OpslagsTavle nytOpslag = new();
+
+    protected override void OnInitialized()
+    {
+        IndlæsOpslag();
+    }
+
+    private void IndlæsOpslag()
+    {
+        opslagListe = Service.HentAlleOpslag();
+    }
+
+    private void Opret()
+    {
+        if (!string.IsNullOrWhiteSpace(nytOpslag.Titel) && !string.IsNullOrWhiteSpace(nytOpslag.Besked))
+        {
+            nytOpslag.Oprettelsesdato = DateTime.Now;
+            
+            Service.OpretOpslag(nytOpslag);
+            
+            nytOpslag = new HotelRitz.Blazor.Data.Model.OpslagsTavle();
+            IndlæsOpslag();
+        }
+    }
+}

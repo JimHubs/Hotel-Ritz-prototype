@@ -1,4 +1,5 @@
 ﻿namespace HotelRitz.Blazor.Data.Model;
+using System;
 
 public class OpslagsTavle
 {
