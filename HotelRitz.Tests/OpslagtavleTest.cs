@@ -81,4 +81,33 @@ public class OpslagstavleTest
         Assert.NotNull(resultat);
         Assert.Single(resultat); // vi forventer præcis 1 opslag
     }
+    
+    public void Opslag_hentAlleOpslag_returnerEtOpslag()
+    {
+        //arrange
+        var service = new OpslagService();
+        
+        //act
+        var resultat = service.HentAlleOpslag();
+        
+        //assert
+        Assert.NotNull(resultat);
+        Assert.Single(resultat);
+    }
+
+    public void HentAlleOpslag_OpslagHarTitelOgBesked()
+    {
+        //arrange
+        var service = new OpslagService();
+        
+        //act
+        var resultat = service.HentAlleOpslag();
+        
+        //assert
+        Assert.NotNull(resultat);
+        Assert.Single(resultat);
+        var opslag = resultat.First();
+        Assert.Equal("Arthur", opslag.Titel);
+        Assert.Equal("Hej fra arthur", opslag.Besked);
+    }
 }
