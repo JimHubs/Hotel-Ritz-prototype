@@ -8,6 +8,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     
 public DbSet<OpslagsTavle> OpslagsTavler { get; set; }
+public DbSet<OpslagLaesning> Opslagslaesninger { get; set; }
         
 }
 

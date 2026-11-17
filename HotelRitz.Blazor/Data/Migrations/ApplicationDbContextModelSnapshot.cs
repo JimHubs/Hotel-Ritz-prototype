@@ -86,6 +86,27 @@ namespace HotelRitz.Blazor.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("HotelRitz.Blazor.Data.Model.OpslagLaesning", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("BrugerId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("LaesningsDato")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("OpslagId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Opslagslaesninger");
+                });
+
             modelBuilder.Entity("HotelRitz.Blazor.Data.Model.OpslagsTavle", b =>
                 {
                     b.Property<int>("Id")
@@ -93,18 +114,21 @@ namespace HotelRitz.Blazor.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Besked")
-                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("ErFaerdiggjort")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("FaerdiggjortDato")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Forfatter")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("Oprettelsesdato")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Titel")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
