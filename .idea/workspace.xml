@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa172f85-8427-4175-9579-e29ec01c5495" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelRitz.Blazor/Data/Migrations/20261116102440_TilfoejOpslag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelRitz.Blazor/Data/Migrations/20261116102440_TilfoejOpslag.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +47,10 @@
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/EmptyLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Layout/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/Home.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Pages/OpslagsTavle.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Components/Routes.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/ApplicationUser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/Migrations/20261116082603_TilfoejOpslagstavle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/Migrations/20261116102440_TilfoejOpslag.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/Migrations/ApplicationDbContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelRitz.Blazor/Data/Model/OpslagsTavle.cs" root0="SKIP_HIGHLIGHTING" />
@@ -187,7 +186,8 @@
     <MESSAGE value="daddy log in" />
     <MESSAGE value="Init commit" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="Updateret Dashboard opslag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updateret Dashboard opslag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
