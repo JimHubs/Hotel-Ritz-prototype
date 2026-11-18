@@ -1,24 +1,27 @@
-﻿using System;
+﻿
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace HotelRitz.Blazor.Migrations
 {
-    /// <inheritdoc />
     public partial class TilfoejOpslag : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            // Opretter tabellen til registrering af læste opslag
             migrationBuilder.CreateTable(
                 name: "Opslagslaesninger",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
+
                     OpslagId = table.Column<int>(type: "INTEGER", nullable: false),
-                    BrugerId = table.Column<string>(type: "TEXT", nullable: true),
+
+                    BrugerId = table.Column<string>(type: "TEXT", nullable: false),
+
                     LaesningsDato = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
@@ -26,33 +29,85 @@ namespace HotelRitz.Blazor.Migrations
                     table.PrimaryKey("PK_Opslagslaesninger", x => x.Id);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "OpslagsTavler",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Titel = table.Column<string>(type: "TEXT", nullable: true),
-                    Besked = table.Column<string>(type: "TEXT", nullable: true),
-                    Forfatter = table.Column<string>(type: "TEXT", nullable: true),
-                    Oprettelsesdato = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ErFaerdiggjort = table.Column<bool>(type: "INTEGER", nullable: false),
-                    FaerdiggjortDato = table.Column<DateTime>(type: "TEXT", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_OpslagsTavler", x => x.Id);
-                });
+            // Tilføjer nye kolonner til den eksisterende opslagstavle
+            migrationBuilder.AddColumn<bool>(
+                name: "ErFaerdiggjort",
+                table: "OpslagsTavler",
+                type: "INTEGER",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.AddColumn<DateTime>(
+                name: "FaerdiggjortDato",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: true);
+
+            // Gør de eksisterende tekstkolonner nullable
+            migrationBuilder.AlterColumn<string>(
+                name: "Titel",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: true,
+                oldClrType: typeof(string),
+                oldType: "TEXT");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Besked",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: true,
+                oldClrType: typeof(string),
+                oldType: "TEXT");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Forfatter",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: true,
+                oldClrType: typeof(string),
+                oldType: "TEXT");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Opslagslaesninger");
 
-            migrationBuilder.DropTable(
-                name: "OpslagsTavler");
+            migrationBuilder.DropColumn(
+                name: "ErFaerdiggjort",
+                table: "OpslagsTavler");
+
+            migrationBuilder.DropColumn(
+                name: "FaerdiggjortDato",
+                table: "OpslagsTavler");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Titel",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "TEXT",
+                oldNullable: true);
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Besked",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "TEXT",
+                oldNullable: true);
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Forfatter",
+                table: "OpslagsTavler",
+                type: "TEXT",
+                nullable: false,
+                oldClrType: typeof(string),
+                oldType: "TEXT",
+                oldNullable: true);
         }
     }
 }
