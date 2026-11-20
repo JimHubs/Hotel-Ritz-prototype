@@ -1,0 +1,88 @@
+@page "/medarbejdere"
+@rendermode InteractiveServer
+@layout HotelRitz.Blazor.Components.Layout.EmptyLayout
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@using HotelRitz.Blazor.Data
+
+@attribute [Authorize]
+
+@inject UserManager<ApplicationUser> UserManager
+
+<PageTitle>Hotel Ritz | Medarbejdere</PageTitle>
+
+<div class="employee-page">
+
+    <header class="employee-header">
+        <div>
+            <p class="breadcrumb">Dashboard / Medarbejdere</p>
+            <h1>Medarbejdere</h1>
+            <p>Oversigt over medarbejderne på Hotel Ritz.</p>
+        </div>
+    </header>
+
+    @if (isLoading)
+    {
+        <p>Indlæser medarbejdere...</p>
+    }
+    else
+    {
+        <section class="employee-card">
+
+            <div class="employee-card-header">
+                <div>
+                    <h2>Alle medarbejdere</h2>
+                    <p>@medarbejdere.Count medarbejdere</p>
+                </div>
+            </div>
+
+            @if (medarbejdere.Count == 0)
+            {
+                <p>Der er endnu ingen registrerede medarbejdere.</p>
+            }
+            else
+            {
+                <div class="employee-table-wrapper">
+                    <table class="employee-table">
+                        <thead>
+                            <tr>
+                                <th>Navn</th>
+                                <th>E-mail</th>
+                                <th>Brugernavn</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var medarbejder in medarbejdere)
+                            {
+                                <tr @key="medarbejder.Id">
+                                    <td>@(medarbejder.Name ?? "Ikke angivet")</td>
+                                    <td>@medarbejder.Email</td>
+                                    <td>@medarbejder.UserName</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+
+        </section>
+    }
+
+</div>
+
+@code {
+    private List<ApplicationUser> medarbejdere = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        medarbejdere = await UserManager.Users
+            .OrderBy(u => u.Name)
+            .ToListAsync();
+
+        isLoading = false;
+    }
+}
